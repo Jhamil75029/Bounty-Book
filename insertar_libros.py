@@ -1,19 +1,21 @@
 #Agrega uno o varios libros a la tabla
 import sqlite3
 
-def insertar_libro_con_generos(titulo, autor, anio, lista_generos):
+def insertar_libro_con_generos(
+    titulo, autor, anio, precio, stock, isbn, imagen_url, descripcion, lista_generos
+):
     conn = sqlite3.connect("libreria.db")
     cursor = conn.cursor()
 
     # Insertar el libro
     cursor.execute("""
-    INSERT INTO libros (titulo, autor, anio)
-    VALUES (?, ?, ?)
-    """, (titulo, autor, anio))
+    INSERT INTO libros (titulo, autor, anio, precio, stock, isbn, imagen_url, descripcion)
+    VALUES (?, ?, ?, ?, ?, ?, ?, ?)
+    """, (titulo, autor, anio, precio, stock, isbn, imagen_url, descripcion))
     libro_id = cursor.lastrowid
 
+    # Insertar y vincular géneros
     for genero in lista_generos:
-        # Verificar si el género ya existe
         cursor.execute("SELECT id FROM generos WHERE nombre = ?", (genero,))
         resultado = cursor.fetchone()
 
@@ -23,7 +25,6 @@ def insertar_libro_con_generos(titulo, autor, anio, lista_generos):
             cursor.execute("INSERT INTO generos (nombre) VALUES (?)", (genero,))
             genero_id = cursor.lastrowid
 
-        # Relacionar libro con género
         cursor.execute("""
         INSERT OR IGNORE INTO libros_generos (libro_id, genero_id)
         VALUES (?, ?)
@@ -31,8 +32,17 @@ def insertar_libro_con_generos(titulo, autor, anio, lista_generos):
 
     conn.commit()
     conn.close()
-    print(f"Libro '{titulo}' agregado con sus géneros.")
+    print(f"Libro '{titulo}' agregado correctamente.")
 
-# 🔽 EJEMPLOS
-insertar_libro_con_generos("El Código Da Vinci", "Dan Brown", 2003, ["Novela", "Thriller", "Misterio", "Ficción detectivesca"])
-insertar_libro_con_generos("Harry Potter y la piedra filosofal", "J.K. Rowling", 1997, ["Fantasía", "Aventura", "Juvenil"])
+# 🔽 Ejemplo de uso
+insertar_libro_con_generos(
+    "El Código Da Vinci",
+    "Dan Brown",
+    2003,
+    15.99,
+    12,
+    "9780307474278",
+    "https://miweb.com/imagenes/codigo_da_vinci.jpg",
+    "Un thriller de conspiraciones religiosas y arte renacentista.",
+    ["Thriller", "Misterio", "Ficción detectivesca"]
+)

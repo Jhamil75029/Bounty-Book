@@ -9,7 +9,12 @@ CREATE TABLE IF NOT EXISTS libros (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     titulo TEXT NOT NULL,
     autor TEXT NOT NULL,
-    anio INTEGER
+    anio INTEGER,
+    precio REAL,
+    stock INTEGER,
+    isbn TEXT,
+    imagen_url TEXT,
+    descripcion TEXT
 )
 """)
 
@@ -21,7 +26,7 @@ CREATE TABLE IF NOT EXISTS generos (
 )
 """)
 
-# Crear tabla de relación muchos a muchos
+# Crear tabla puente libros-generos
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS libros_generos (
     libro_id INTEGER,

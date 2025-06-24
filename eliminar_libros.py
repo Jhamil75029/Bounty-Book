@@ -5,7 +5,7 @@ def eliminar_libro(libro_id):
     conn = sqlite3.connect("libreria.db")
     cursor = conn.cursor()
 
-    # Eliminar primero de la tabla de relación
+    # Eliminar relaciones con géneros primero
     cursor.execute("DELETE FROM libros_generos WHERE libro_id = ?", (libro_id,))
 
     # Luego eliminar el libro
@@ -13,7 +13,7 @@ def eliminar_libro(libro_id):
 
     conn.commit()
     conn.close()
-    print(f"Libro ID {libro_id} eliminado.")
+    print(f"Libro ID {libro_id} eliminado correctamente.")
 
-# 🔽 EJEMPLO: eliminar libro con ID 2
-eliminar_libro(2)
+# 🔽 Ejemplo
+eliminar_libro(1)

@@ -21,4 +21,4 @@ CREATE TABLE IF NOT EXISTS libros (
 conn.commit()
 conn.close()
 
-print("Base de datos y tabla 'libros' creadas exitosamente.")
+#print("Base de datos y tabla 'libros' creadas exitosamente.")

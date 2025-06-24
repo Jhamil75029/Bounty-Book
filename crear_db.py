@@ -1,24 +1,37 @@
 import sqlite3
 
-# Crear una conexión a la base de datos (se crea un archivo si no existe)
 conn = sqlite3.connect("libreria.db")
-
-# Crear un cursor para ejecutar comandos SQL
 cursor = conn.cursor()
 
-# Crear la tabla de libros
+# Crear tabla de libros
 cursor.execute("""
 CREATE TABLE IF NOT EXISTS libros (
     id INTEGER PRIMARY KEY AUTOINCREMENT,
     titulo TEXT NOT NULL,
     autor TEXT NOT NULL,
-    anio INTEGER,
-    genero TEXT
+    anio INTEGER
 )
 """)
 
-# Guardar los cambios y cerrar la conexión
+# Crear tabla de géneros
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS generos (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    nombre TEXT UNIQUE NOT NULL
+)
+""")
+
+# Crear tabla de relación muchos a muchos
+cursor.execute("""
+CREATE TABLE IF NOT EXISTS libros_generos (
+    libro_id INTEGER,
+    genero_id INTEGER,
+    FOREIGN KEY (libro_id) REFERENCES libros(id),
+    FOREIGN KEY (genero_id) REFERENCES generos(id),
+    PRIMARY KEY (libro_id, genero_id)
+)
+""")
+
 conn.commit()
 conn.close()
-
-#print("Base de datos y tabla 'libros' creadas exitosamente.")
+print("Base de datos y tablas creadas correctamente.")

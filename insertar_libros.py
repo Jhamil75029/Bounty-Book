@@ -46,3 +46,39 @@ insertar_libro_con_generos(
     "Un thriller de conspiraciones religiosas y arte renacentista.",
     ["Thriller", "Misterio", "Ficción detectivesca"]
 )
+
+insertar_libro_con_generos(
+    "El Símbolo Perdido",
+    "Dan Brown",
+    2009,
+    30.00,
+    75,
+    "9788408176015",
+    "https://proassetspdlcom.cdnstatics2.com/usuaris/libros/fotos/10/original/portada_el-simbolo-perdido_dan-brown_201505260959.jpg",
+    "Robert se encuentra con la masonería",
+    ["Thriller", "Misterio", "Ficción detectivesca"]
+)
+
+insertar_libro_con_generos(
+    "El Origen",
+    "Dan Brown",
+    2017,
+    27.78,
+    29,
+    "9788408177081",
+    "https://pictures.abebooks.com/isbn/9789584261625-us.jpg",
+    "Robert Langdon descubre que el big bang es posible",
+    ["Thriller", "Misterio", "Ficción detectivesca"]
+)
+
+insertar_libro_con_generos(
+    "Unas Galletitas de Muerte",
+    "Joanne Fluke",
+    2024,
+    20,
+    755,
+    "9788418933615",
+    "https://m.media-amazon.com/images/I/71QlSSLKJCL.jpg",
+    "Hannah está ocupada intentado esquivar los intentos de su madre por casarla mientras dirige la panadería más popular de Lake Eden. Pero cuando encuentran a Ron LaSalle, el querido repartidor de periódicos muerto en la parte trasera de su panadería, su vida ya no puede ir a peor.",
+    ["Cozy mystery", "Terror", "Suspenso", "Misterio"]
+)

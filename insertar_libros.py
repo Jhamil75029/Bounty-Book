@@ -82,3 +82,39 @@ insertar_libro_con_generos(
     "Hannah está ocupada intentado esquivar los intentos de su madre por casarla mientras dirige la panadería más popular de Lake Eden. Pero cuando encuentran a Ron LaSalle, el querido repartidor de periódicos muerto en la parte trasera de su panadería, su vida ya no puede ir a peor.",
     ["Cozy mystery", "Terror", "Suspenso", "Misterio"]
 )
+
+insertar_libro_con_generos(
+    "Ángeles y Demonios",
+    "Dan Brown",
+    2000,
+    58,
+    501,
+    "9788495618719",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlQ5BB9pTVjmd6Dqxh4jN1PvKmIJnJdsn3Yg&s",
+    "Robert se enfrenta a los Illuminati",
+    ["Misterio", "Suspenso", "Ficción Conspirativa"]
+)
+
+insertar_libro_con_generos(
+    "Inferno",
+    "Dan Brown",
+    2013,
+    23.99,
+    83,
+    "9788408176039",
+    "https://m.media-amazon.com/images/I/71aUA1-B9aL._UF1000,1000_QL80_.jpg",
+    "Inferno es una novela de misterio, ficción y suspenso del escritor estadounidense Dan Brown, basada en la simbología oculta en la Divina Comedia, obra clásica de Dante Alighieri, así como en los problemas de la superpoblación mundial.",
+    ["Misterio", "Suspenso", "Thriller", "Novela"]
+)
+
+insertar_libro_con_generos(
+    "Morir Por Una Tarta De Fresa",
+    "Joanne Fluke",
+    2025,
+    27.87,
+    10,
+    "9788419599421",
+    "https://cdn.prod.website-files.com/6034d7d1f3e0f52c50b2adee/681df46c0ca86ae78febb0b7_fVdDMUhY-ekQ-swylWZ1p3PsFnxRA1THeQKTBsdWdfM.jpeg",
+    "Harinas Hartland va a celebrar su primer concurso de repostería en Lake Eden y Hannah, propietaria de The Cookie Jar, es elegida para ser la presidenta del jurado.",
+    ["Cozy mystery", "Novela"]
+)

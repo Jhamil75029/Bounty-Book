@@ -118,3 +118,39 @@ insertar_libro_con_generos(
     "Harinas Hartland va a celebrar su primer concurso de repostería en Lake Eden y Hannah, propietaria de The Cookie Jar, es elegida para ser la presidenta del jurado.",
     ["Cozy mystery", "Novela"]
 )
+
+insertar_libro_con_generos(
+    "El Signo De Los Cuatro",
+    "Arthur Conan Doyle",
+    1890,
+    24.01,
+    26,
+    "9788499898919",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQCbfoNJv2o4Qe7QoGXEmo7DKIdZfVYZM6NGQ&s",
+    "El signo de los cuatro es la segunda novela protagonizada por Sherlock Holmes, escrita por Arthur Conan Doyle. Su título también se ha traducido como La señal de los cuatro.",
+    ["Novela", "Misterio", "Ficción detectivesca"]
+)
+
+insertar_libro_con_generos(
+    "El Hombre Invisible",
+    "H. G. Wells",
+    1897,
+    32,
+    34,
+    "9788466706049",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRol58mdlxPBcSDL-IJs2DbTtHXrSvKqU2j_w&s",
+    "El hombre invisible es una novela de ciencia ficción y terror del escritor británico H. G. Wells. La obra fue originalmente publicada en entregas en la revista Pearson's Magazine en 1897 y como novela el mismo año.",
+    ["Novela", "Ciencia Ficción", "Terror", "Novela científica"]
+)
+
+insertar_libro_con_generos(
+    "La Máquina Del Tiempo",
+    "H. G. Wells",
+    1895,
+    54,
+    87,
+    "9788426140005",
+    "https://escritosdeunexabstemio.wordpress.com/wp-content/uploads/2022/12/maquina-del-tiempo-portada.jpg",
+    "En un viaje experimental llega al año 802.701 y encuentra la tierra habitada por los Eloi, pacíficos y ociosos. El Viajero del Tiempo deduce que están tan avanzados que unas máquinas deben de trabajar por ellos. Más tarde descubrirá a los malvados y depredadores Morlocks, y habrá de escapar para salvar la vida.",
+    ["Novela científica", "Ciencia Ficción", "Ficción distópica", "Literatura fantástica"]
+)

@@ -154,3 +154,39 @@ insertar_libro_con_generos(
     "En un viaje experimental llega al año 802.701 y encuentra la tierra habitada por los Eloi, pacíficos y ociosos. El Viajero del Tiempo deduce que están tan avanzados que unas máquinas deben de trabajar por ellos. Más tarde descubrirá a los malvados y depredadores Morlocks, y habrá de escapar para salvar la vida.",
     ["Novela científica", "Ciencia Ficción", "Ficción distópica", "Literatura fantástica"]
 )
+
+insertar_libro_con_generos(
+    "Los Ojos De Plata",
+    "Scott Cawthon",
+    2015,
+    26.99,
+    36,
+    "9788416867356",
+    "https://pendulo.com/imagenes_grandes/9788416/978841686769.GIF",
+    "Diez años después de los terroríficos asesinatos en la Freddy Fazbear's Pizza, Charlie, la hija del antiguo propietario de la pizzería, y sus amigos de la infancia se reúnen para recordar el aniversario de la tragedia a las puertas del local que ha estado cerrado y abandonado durante todos estos años.",
+    ["Novela", "Terror"]
+)
+
+insertar_libro_con_generos(
+    "Los Otros Animatrónicos",
+    "Scott Cawthon",
+    2018,
+    51,
+    320,
+    "9788417305413",
+    "https://libreriakronos.com/cdn/shop/files/91HaMdgHLxL.-AC_UF894_1000_QL80.jpg?v=1708610453",
+    "La historia sigue a Charlie, quien intenta seguir adelante un año después de los eventos en Freddy Fazbear's Pizza, pero es atormentada por pesadillas con un asesino enmascarado y sus animatrónicos. Cuando se descubren cuerpos cerca de su escuela con heridas similares a las de las creaciones de su padre, se ve obligada a regresar al mundo de los animatrónicos.",
+    ["Ficción Adulto Joven", "Terror"]
+)
+
+insertar_libro_con_generos(
+    "El Cuarto Armario",
+    "Scott Cawthon",
+    2020,
+    75,
+    215,
+    "9788417968106",
+    "https://m.media-amazon.com/images/I/81ox6OAm-NL._UF1000,1000_QL80_.jpg",
+    "Unidos por la pérdida de su niñez y a regañadientes, John se juntará con Jessica, Marla y Carlton para resolver el caso y encontrar a los niños desaparecidos. A lo largo del camino, descifrarán el misterio de lo que le sucedió a Charlie y del inquietante legado de las creaciones de su padre.",
+    ["Ficción Adulto Joven", "Terror"]
+)

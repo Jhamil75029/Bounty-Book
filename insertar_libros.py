@@ -190,3 +190,39 @@ insertar_libro_con_generos(
     "Unidos por la pérdida de su niñez y a regañadientes, John se juntará con Jessica, Marla y Carlton para resolver el caso y encontrar a los niños desaparecidos. A lo largo del camino, descifrarán el misterio de lo que le sucedió a Charlie y del inquietante legado de las creaciones de su padre.",
     ["Ficción Adulto Joven", "Terror"]
 )
+
+insertar_libro_con_generos(
+    "Historia Del Tiempo",
+    "Stephen W. Hawking",
+    1988,
+    36,
+    98,
+    "9879317114",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTY3FqkFBdKRXrm8-dYpJ7WtR4kPcUQ2Lhc3Q&s",
+    "Breve historia del tiempo: del Big Bang a los agujeros negros es un libro de divulgación científica publicado en 1988 por el físico teórico, astrofísico, cosmólogo y divulgador científico británico Stephen Hawking y prologado por Carl Sagan.​",
+    ["Divulgación científica"]
+)
+
+insertar_libro_con_generos(
+    "Cómo Hacer Que Te Pasen Cosas Buenas",
+    "Marian Rojas Estapé",
+    2018,
+    14.99,
+    87,
+    "9788467053302",
+    "https://www.planetadelibros.com/usuaris/libros/fotos/274/original/portada_como-hacer-que-te-pasen-cosas-buenas_marian-rojas_201807031215.jpg",
+    "Disfruta el presente, supera el pasado y mira con ilusión el futuro ¿Eres consciente de que tu manera de gestionar los conflictos te puede predisponer a sufrir ansiedad o depresión, las enfermedades más frecuentes del siglo XXI? Para la doctora Marian Rojas Estapé la felicidad consiste en vivir instalado de forma sana en el presente, habiendo superado las heridas del pasado.",
+    ["Autoayuda"]
+)
+
+insertar_libro_con_generos(
+    "El Gran Libro De HTML5, CSS3 y JavaScript",
+    "Juan Diego Gauchat",
+    2017,
+    5.99,
+    53,
+    "9788426724632",
+    "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnHwgPnOB6ALDJzNnqtw6mtZ90uhic88Np_A&s",
+    "El gran libro de HTML5, CSS3 y JavaScript guía al lector paso a paso en el desarrollo de sitios y aplicaciones web. Después de leer este libro sabrá cómo estructurar sus documentos con HTML, cómo otorgarles estilos con CSS y cómo trabajar con las más poderosas APIs de JavaScript.",
+    ["Programación", "Desarrollo web"]
+)

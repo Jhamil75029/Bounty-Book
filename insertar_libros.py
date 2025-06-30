@@ -226,3 +226,39 @@ insertar_libro_con_generos(
     "El gran libro de HTML5, CSS3 y JavaScript guía al lector paso a paso en el desarrollo de sitios y aplicaciones web. Después de leer este libro sabrá cómo estructurar sus documentos con HTML, cómo otorgarles estilos con CSS y cómo trabajar con las más poderosas APIs de JavaScript.",
     ["Programación", "Desarrollo web"]
 )
+
+insertar_libro_con_generos(
+    "El Conde De Montecristo",
+    "Alejandro Dumas",
+    2014,
+    53,
+    35,
+    "9788415083597",
+    "https://static.serlogal.com/imagenes_small/9788497/978849794540.jpg",
+    "Condenado a cumplir una condena que no merece en la siniestra prisión del castillo de If, Edmond vivirá una larga pesadilla de trece años. Obsesionado por su inesperado destino, dejará de lado sus convicciones en torno al bien y al mal, y se dedicará a tramar la venganza perfecta.",
+    ["Novela", "Aventura", "Ficción histórica", "Thriller legal"]
+)
+
+insertar_libro_con_generos(
+    "Cinco Semanas En Globo",
+    "Julio Verne",
+    1863,
+    18.63,
+    18,
+    "9788445908990",
+    "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh4OXwz9IesFgyCCAU4uaHlTLDXXC8s0JYOssyUTH3eMfxdsIMPno-Z3gxXb143nkRGLfJXNQWP3iA_oSM7bErFPWXZNg4AB4-vreowiGvV6vCw12D7ZBF_LZ6t0pYLuUmyKZsiGgB20Qc/s1600/CincoSemanasEnGlobo.jpg",
+    "Cinco semanas en globo narra el viaje del doctor Samuel Ferguson, investigador y explorador de origen inglés, que emprende un viaje a lo largo del continente africano subido en un globo aerostático.",
+    ["Novela", "Ciencia ficción", "Aventura"]
+)
+
+insertar_libro_con_generos(
+    "Un Capitán De 15 Años",
+    "Julio Verne",
+    1878,
+    18.78,
+    18,
+    "9788445909324",
+    "https://http2.mlstatic.com/D_NQ_NP_747028-MLA26003541406_092017-O.webp",
+    "Narra la historia de Dick Sand, un joven grumete que, tras un accidente a bordo del barco ballenero Pilgrim, se ve obligado a asumir el mando a pesar de su corta edad.",
+    ["Novela", "Aventura", "Ficción especulativa"]
+)
